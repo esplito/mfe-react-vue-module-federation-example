@@ -11,4 +11,6 @@
   - Authentication (React)
   - Dashboard (Vue)
 
+This is currently setup with all microfrontends in a monorepo, but it could just as well be set up with seperate repos.
+
 **Please note: Each app is only dummy apps without any actual functionality implemented**
