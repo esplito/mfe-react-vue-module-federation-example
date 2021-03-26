@@ -8,7 +8,8 @@ const domain = process.env.PRODUCTION_DOMAIN;
 const prodConfig = {
   mode: 'production',
   output: {
-    filename: '[name].[contenthash].js' //primarly done for caching issues
+    filename: '[name].[contenthash].js', //primarly done for caching issues
+    publicPath: '/container/latest/' // will be used anytime we want to refer to some file that has been built by Webpack
   },
   plugins: [
     new ModuleFederationPlugin({
