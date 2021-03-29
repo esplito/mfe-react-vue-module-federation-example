@@ -1,9 +1,9 @@
-import { mount } from 'marketing/MarketingApp';
+import { mount } from 'auth/AuthApp';
 import React, { useRef, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
 // you should be able to the same kind of pattern in other frameworks like Angular or Vue.
-export default () => {
+export default ({ onSignIn }) => {
   const ref = useRef(null);
   const history = useHistory(); // copy of the browser history within container
 
@@ -16,7 +16,8 @@ export default () => {
         if (pathname !== nextPathname) {
           history.push(nextPathname);
         }
-      }
+      },
+      onSignIn // named onAuthChange in images in lecture notes
     });
 
     history.listen(onParentNavigate);

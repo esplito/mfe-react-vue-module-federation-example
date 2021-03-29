@@ -4,6 +4,8 @@
 
 ![MarketingApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/marketing.yml/badge.svg)
 
+![AuthApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/auth.yml/badge.svg)
+
 # Tech spec
 
 - Container (React)
