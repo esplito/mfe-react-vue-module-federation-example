@@ -6,6 +6,8 @@
 
 ![AuthApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/auth.yml/badge.svg)
 
+![DashboardApp](https://github.com/esplito/mfe-react-vue-module-federation-example/actions/workflows/dashboard.yml/badge.svg)
+
 # Tech spec
 
 - Container (React)
