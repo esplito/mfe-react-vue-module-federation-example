@@ -2,7 +2,7 @@ import { mount } from 'marketing/MarketingApp';
 import React, { useRef, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
-// you should be able to the same kind of pattern in other frameworks like Angular or Vue.
+// you should be able to do the same kind of pattern in other frameworks like Angular or Vue.
 export default () => {
   const ref = useRef(null);
   const history = useHistory(); // copy of the browser history within container
